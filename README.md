@@ -14,7 +14,7 @@ It will be helpfulto have your IDE of choice set up with syntax highlighting for
 4. Set up the development environment for flask.
     - `git clone https://github.com/pallets/flask.git`
     - `cd flask`
-    - Create a virtualenv with `virtualenv env` (This task can be completed in 3.7 as well, but one of the unittests that checks for swallowing errors will fail out of the box.)
+    - Create a virtualenv with `virtualenv env`.
     - Activate the virtualenv with `source env/bin/activate`.
     - Install the pinned dependencies included at `requirements.txt` in this repository by running `pip install -r requirements.txt`
     - Install the flask development dependencies `pip install -e ".[dev]"`
