@@ -18,7 +18,6 @@ It will be helpfulto have your IDE of choice set up with syntax highlighting for
     - Activate the virtualenv with `source env/bin/activate`.
     - Install the pinned dependencies included at `requirements.txt` in this repository by running `pip install -r requirements.txt`
     - Install the flask development dependencies `pip install -e ".[dev]"`
-    - Install pytest `pip install pytest`
     - Make sure your IDE is set up to make code changes in the flask repository.
 5. Check that the tests work by running `pytest tests` from the flask directory.
 6. Familiarize yourself with flask. A great way is to read through http://flask.pocoo.org/docs/1.0/quickstart/.
