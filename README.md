@@ -1,4 +1,5 @@
 # Python Interview Question
+To make sure we properly evaluate your programming ability, we strongly encourage you to bring your own laptop which is set up with a toolchain that you are familiar with. In case this is not possible, Databricks can provide an MacBook laptop set up with PyCharm, iTerm2, zsh, and other standard tools.
 
 ## Prerequisites
 
