@@ -18,6 +18,7 @@ It will be helpful to have your IDE of choice set up with syntax highlighting fo
     - Create a virtualenv with `virtualenv env`.
     - Activate the virtualenv with `source env/bin/activate`.
     - Install the flask development dependencies `pip install -e ".[dev]"`
+    - Install pytest with `pip install pytest`.
     - Confirm that you can run the test suite. You can do this by running `py.test` in your terminal.
     - You can exit the virtualenv by running the command `deactivate`.
     - Make sure your IDE is set up to navigate and make code changes to the flask repository.
