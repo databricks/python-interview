@@ -17,7 +17,9 @@ It will be helpful to have your IDE of choice set up with syntax highlighting fo
     - `cd flask`
     - Create a virtualenv with `virtualenv env`.
     - Activate the virtualenv with `source env/bin/activate`.
-    - Install the pinned dependencies included at `requirements.txt` in this repository by running `pip install -r requirements.txt`
     - Install the flask development dependencies `pip install -e ".[dev]"`
+    - Confirm that you can run the test suite. You can do this by running `py.test` in your terminal.
+    - You can exit the virtualenv by running the command `deactivate`.
     - Make sure your IDE is set up to navigate and make code changes to the flask repository.
 5. Familiarize yourself with flask. A great way is to read through the "A Minimal Application" and "Routing" sections of http://flask.pocoo.org/docs/1.0/quickstart/. A deep understanding of Flask will not be necessary for completing this task, and you will be able to reference the documentation, so there is no need to memorize anything.
+6. Save the pinned dependencies included at `requirements.txt` in this repository in a file `requirements.txt`.
